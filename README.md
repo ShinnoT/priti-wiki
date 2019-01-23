@@ -1,4 +1,12 @@
+# Starting the project
+
+- after you clone the repository in the location you want on your machine
+- go to your directory `cd ~/path/to/priti_wiki`
+- run `npm install`
+- run `npm start` to start your local server!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have `create-react-app` package installed globally through `npm i -g create-react-app` so that I can use it anywhere, I suggest you do the same (though this is not necessary for this project because its just a package that quickly creates projects through the command line but I already did that here so)
 
 ## Available Scripts
 
@@ -14,11 +22,13 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
+**WE DONT HAVE ANY UNIT TESTS YET :(**
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
+**WE ONLY NEED THIS WHEN WE DEPLOY TO REMOTE SERVER TO HOST OUR APP**
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -29,6 +39,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+**PROBABLY SHOULD'T USE THIS**
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
