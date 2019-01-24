@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import '../style/Home.css';
 
 import TextField from '@material-ui/core/TextField';
@@ -9,7 +8,7 @@ class Home extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p className="title">PRITIWIKI</p>
+          <p className="title">PRITIPEDIA</p>
           <p>Wikipedia, but prettier.</p>
           <div className="search-bar">
             <TextField
