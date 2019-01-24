@@ -3,6 +3,12 @@ import '../style/Home.css';
 
 import TextField from '@material-ui/core/TextField';
 
+const style = {
+  'background-color': '#EDF5E1',
+  color: '#379683',
+  'border-radius': '6px'
+};
+
 class Home extends Component {
   render() {
     return (
@@ -18,6 +24,8 @@ class Home extends Component {
               fullWidth
               margin="normal"
               variant="outlined"
+              autoFocus
+              style={style}
             />
           </div>
         </header>
