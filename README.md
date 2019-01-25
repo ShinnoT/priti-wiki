@@ -1,3 +1,5 @@
+[LIVE SITE](https://eager-yalow-e32171.netlify.com)
+
 # Starting the project
 
 - after you clone the repository in the location you want on your machine

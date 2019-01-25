@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #5cdb95;
+  background-color: #edf5e1;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #edf5e1;
+  color: #379683;
 }
 
 .App-header p {
@@ -25,6 +25,7 @@
   font-size: calc(10px + 10vmin);
   color: #05386b;
   font-weight: bold;
+  font-family: 'georgia';
 }
 
 .App-header .search-bar {
